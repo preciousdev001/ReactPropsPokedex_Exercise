@@ -1,6 +1,5 @@
 function Pokecard({ id, name, type, base_experience }) {
-  const imgSrc =
-    "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png";
+  const imgSrc = `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
 
   return (
     <div className="pokecard">
